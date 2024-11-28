@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Página de Inicio</title>
+    <link rel="stylesheet" type="text/css" href="estiloscsup.css">
+</head>
+<body>
+    <header>
+        <h1><img src="imgs/csupremelogo.png"></h1>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="acerca.html">Acerca de nosotros</a></li>
+                <li><a href="terminos.html">Terminos y Condiciones</a></li>
+                <li><a href="Faqs.html">Preguntas Frecuentes</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="prerifericos colaborativos.html">Tienda Online</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+    <div id="presentation"></div>
+    <script>
+        const messages = [
+            "Bienvenido a C Suprem3 donde la competitividad está en las nubes.",
+            'Josue Marquez "5kbitz" dijo: "Hoy les presentaremos nuestro emocionante Club de Videojuegos Deportivos, un lugar donde los amantes de los deportes y los videojuegos se unen para competir, aprender y disfrutar juntos."',
+            "Slide 3: Objetivos del Club",
+            "Ganar torneos competitivos y hacer que sea accesible obtener los mejores periféricos para jugar",
+            "Nuestros Juegos Principales",
+            "Nuestros juegos principales son y serán los juegos competitivos shooter o de estrategia, más información está en la shop donde verás los juegos donde más nos especializamos",
+            "Slide 5: Actividades y Eventos",
+            "Tú mismo con tu equipo sabrás qué evento o torneo jugar, si quieres saber más de eventos puedes colaborar con creadores de contenido",
+            "Requisitos de Membresía",
+            "La membresía siempre será gratuita ya que nuestro servicio es sobre los jugadores y no de la compañía, nosotros somos intermediarios",
+            "Slide 8: Cómo Unirse",
+            "Unirse es fácil, solo te registras y listo",
+            "Slide 11: Cierre",
+            "Espero disfruten de cómo C Suprem3 va al éxito y se convertirá de club a clan de los deportes, gracias por apoyarnos y diviértanse en nuestra página"
+        ];
+
+        const presentationDiv = document.getElementById("presentation");
+
+        function displayMessage(index) {
+            if (index < messages.length) {
+                const p = document.createElement("p");
+                p.textContent = messages[index];
+                presentationDiv.appendChild(p);
+                index++;
+                setTimeout(function () {
+                    displayMessage(index);
+                }, 2000);
+            }
+        }
+        displayMessage(0);
+    </script>
+    </section>
+    <footer>
+        <p>&copy; 2023 Mi Sitio Web</p>
+    </footer>
+</body>
+</html>

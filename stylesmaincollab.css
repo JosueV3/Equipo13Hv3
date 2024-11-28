@@ -1,0 +1,21 @@
+body {
+    text-align: center;
+    font-family: 'Courier New';
+    background-image: url('https://3.bp.blogspot.com/-DK37uWYIBjI/VrxK9pO4X_I/AAAAAAAACss/69rWADPFKgE/s320/tumblr_mffagiOhxp1qze3hdo1_r2_500.gif');
+}
+ul {
+    list-style: none;
+    color: blueviolet;
+    padding: 0;
+}
+li {
+    display: inline;
+    margin: 10px;
+}
+header {
+    font-family: 'Courier New';
+    background-color: #7709f5;
+    color: #00eeff;
+    padding: 20px;
+    text-align: center;
+}

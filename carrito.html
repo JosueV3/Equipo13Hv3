@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="carritostyles.css">
+    <title>Carrito de Compras</title>
+</head>
+<body>
+    <header>
+        <h1>C Suprem3</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="sebcategorias.html">Tienda</a></li>
+                <li><a href="carrito.html">Carrito</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="producto">
+            <img src="producto1.jpg" alt="Producto 1">
+            <h2>Producto 1</h2>
+            <p>Descripción del Producto 1.</p>
+            <span class="precio">$19.99</span>
+            <button onclick="agregarAlCarrito(1)">Añadir al Carrito</button>
+        </section>
+
+        <!-- Agrega más secciones de productos -->
+    </main>
+
+    <aside class="carrito">
+        <h2>Carrito de Compras</h2>
+        <ul id="carrito-lista">
+            <!-- Los productos agregados se mostrarán aquí -->
+        </ul>
+        <p>Total: <span id="total">$0.00</span></p>
+        <button onclick="realizarPedido()">Realizar Pedido</button>
+    </aside>
+    
+</body>
+</html>

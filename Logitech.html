@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="productosRog.css">
+    <title>Tienda en Línea</title>
+</head>
+<body>
+    <header>
+        <h1>Asus Republic of Gamers</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="carrito.html">Carrito</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="producto">
+            <img src="imgsproducts/mouselol.png" width="85" height="85" alt="Producto 1">
+            <h2>Logitech G PRO Mouse Edición Oficial League of Legends</h2>
+            <p>Mouse inalámbrico PRO para gaming - Edición League of Legends Sensor HERO 25K: El ratón para gaming óptico ofrece superior respuesta precisa y constante a 
+            cualquier velocidad en toda la gama de DPI (100-25.600 DPI) Diseñado para inspirar, elegido por los campeones: descubre la precisión del Mouse Inalámbrico para 
+            Gaming de Logitech G PRO, concebido para inspirar a los jugadores de League of Legends.</p>
+            <span class="precio">$6000</span>
+            <button>Añadir al Carrito</button>
+        </section>
+        <section class="producto">
+            <img src="imgsproducts/mousepadlol.png" width="90" height="90" alt="Producto 1">
+            <h2>Logitech G840 XL Mouse Pad de Tela para Gaming, Edición Oficial de League of Legends</h2>
+            <p>Diseñado para inspirar, elegido por los campeones: Mouse Pad para Gaming G840 XL de Logitech, optimizado para el desempeño y para inspirar a los jugadores de League of Legends.</p>
+            <span class="precio">$12,500</span>
+            <button>Añadir al Carrito</button>
+
+        <section class="producto">
+            <img src="imgsproducts/teclado lol.png" width="90" height="90" alt="Producto 1">
+            <h2>Logitech G PRO Teclado Mecánico para Gaming, Edición Oficial de League of Legends</h2>
+            <p>Diseñado para inspirar, elegido por los campeones: lleva tu juego al siguiente nivel con el Teclado Mecánico para Gaming Logitech G PRO, 
+            concebido para inspirar a los jugadores de League of Legends</p>
+            <span class="precio">$1,800</span>
+            <button>Añadir al Carrito</button>
+        </section>
+    </main>
+    <aside class="carrito">
+        <h2>Carrito de Compras</h2>
+        <ul id="carrito-lista">
+            
+        </ul>
+        <p>Total: <span id="total">$0.00</span></p>
+        <button onclick="realizarPedido(1)">Realizar Pedido</button>
+    </aside>
+    <footer>
+        <p>&copy; 2023 C Suprem3</p>
+    </footer>
+</body>
+</html>

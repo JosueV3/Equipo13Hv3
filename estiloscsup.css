@@ -1,0 +1,85 @@
+body {
+    font-family: 'Times New Roman';
+    margin: 0;
+    padding: 0;
+    background-image: url('https://steamuserimages-a.akamaihd.net/ugc/920289262432114230/DB800F81B41F8A9203D804AF39FD3E6F7AEFF28B/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false');
+}
+
+header {
+    font-family: 'Courier New';
+    background-color: #7709f5;
+    color: #00eeff;
+    padding: 20px;
+    text-align: center;
+}
+div{
+    background-color: #6200ff;
+    padding: 20px;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+.content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+section{
+    padding: 20px;
+    font-family: 'Courier New';
+    color: #01eeff;
+}
+
+#presentation {
+    font-size: 24px;
+    margin: 0 auto;
+    max-width: 600px;
+    text-align: left;
+    padding: 10px;
+    border: 2px solid #ffffff;
+    background-color: #6200ff;
+}
+
+#presentation p {
+    opacity: 0;
+    animation: fade-in 1s ease-in-out forwards;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.faq {
+    margin: 10px;
+}
+
+.question {
+    cursor: pointer;
+}
+
+.answer {
+    display: none;
+}
